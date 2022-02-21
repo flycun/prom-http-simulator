@@ -1,10 +1,10 @@
 package prom_http_simulator
 
 import (
-	"time"
-	"sync"
-	"math/rand"
 	"github.com/prometheus/client_golang/prometheus"
+	"math/rand"
+	"sync"
+	"time"
 )
 
 var (
