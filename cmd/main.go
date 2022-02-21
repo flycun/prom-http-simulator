@@ -1,11 +1,11 @@
 package main
 
 import (
+	"encoding/json"
+	"github.com/flycun/prom-http-simulator"
+	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"net/http"
-	"github.com/PierreVincent/prom-http-simulator"
-	"github.com/gorilla/mux"
-	"encoding/json"
 )
 
 func main() {

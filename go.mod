@@ -3,7 +3,6 @@ module github.com/flycun/prom-http-simulator
 go 1.17
 
 require (
-	github.com/PierreVincent/prom-http-simulator v0.0.0-20180210164420-2eee2dc12a8c
 	github.com/gorilla/mux v1.8.0
 	github.com/prometheus/client_golang v1.12.1
 )
